@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.thinkinghats.isittrue.activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/spacing_medium"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toolbar_title"
+            android:layout_gravity="center"
+            android:id="@+id/title"
+            android:textSize="@dimen/menu_font_size"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.thinkinghats.isittrue.activity.GridRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        android:paddingTop="@dimen/spacing_xlarge"
+        android:layout_margin="@dimen/cardview_left_right_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout_editor_absoluteX="16dp"
+        android:layoutAnimation="@anim/grid_layout_animation_from_bottom"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

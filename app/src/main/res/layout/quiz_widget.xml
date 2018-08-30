@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/widget_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.10"
+            android:contentDescription="@string/quiz_widget"
+            android:paddingStart="@dimen/margin_10"
+            android:src="@drawable/ic_knowledge" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/spacing_xlarge"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/toolbar_title"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/appwidget_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/spacing_medium"
+            android:background="@color/colorPrimary"
+            android:contentDescription="@string/appwidget_text"
+            android:text="@string/appwidget_text"
+            android:textSize="@dimen/menu_font_size"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

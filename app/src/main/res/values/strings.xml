@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Is It True</string>
+    <string name="toolbar_title">Is It True ?</string>
+    <string name="quiz_widget">Is It True ?</string>
+
+    <string name="true_btn">TRUE</string>
+    <string name="false_btn">FALSE</string>
+    <string name="continue_btn">CONTINUE</string>
+    <string name="did_you_know_txt">Did You Know?</string>
+
+    <!--Transition-->
+    <string name="transition_categoryImage" translatable="false">catergoryImage_transition</string>
+    <string name="transition_categoryTitle" translatable="false">catergoryTitle_transition</string>
+
+    <string name="preference_file_key">Score Preferences</string>
+    <string name="menu_score_title">0</string>
+    <string name="menu_life_title">3</string>
+    <string name="correct_answer_msg">You are correct!</string>
+    <string name="wrong_answer_msg">Oops. That\'s not correct!</string>
+    <string name="game_over_header">GAME OVER</string>
+    <string name="game_score">SCORE</string>
+    <string name="game_high_score">Your Best Score : </string>
+
+    <!--Alert Dialog-->
+    <string name="game_dialog_title">Are you sure about that ?</string>
+    <string name="game_dialog_message">All progress will be lost.</string>
+    <string name="game_dialog_quit">QUIT</string>
+    <string name="game_dialog_cancel">CANCEL</string>
+    <string name="game_dialog_extra_lifeBtn">Watch an AD for a life</string>
+    <string name="game_exit_dialog_title">ARE YOU SURE?</string>
+    <string name="game_exit_dialog_message">Don\'t give up just yet!</string>
+    <string name="game_exit_button">QUIT GAME</string>
+
+    <!--Ad unit ID    -->
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="no_connection_errorMsg">Are we connected ?</string>
+    <string name="appwidget_text">Interesting facts coming up</string>
+    <string name="add_widget">Add widget</string>
+    <string name="progress_message">Thinking really hard...</string>
+
+    <!--Content Descrptions-->
+    <string name="no_internet_message">There is no internet connection</string>
+    <string name="exit_game_btn_msg">Exit Game </string>
+    <string name="extra_life_btn_msg">Watch AD for extra Life</string>
+    <string name="true_btn_msg">TRUE</string>
+    <string name="false_btn_msg">FALSE</string>
+    <string name="continue_btn_msg">CONTINUE</string>
+    <string name="content_description_category_title">Selected category: %1$s</string>
+    <string name="content_description_question">Is it true : %1$s</string>
+
+
+    <!--Widget Facts-->
+    <string name="widget_fact1">Humans use only 10% of their brains.</string>
+    <string name="widget_fact2">A million dust mites can live in your mattress.</string>
+    <string name="widget_fact3">The red color makes bulls aggressive.</string>
+    <string name="widget_fact4">Vultures fly off with babies when the opportunity arises.</string>
+    <string name="widget_fact5">Russia has a larger surface area than Pluto.</string>
+    <string name="widget_fact6">There are 60,000 mi. (100,000 km) of blood vessels in a human body.</string>
+    <string name="widget_fact7">A flea can jump more than 200 times its height.</string>
+    <string name="widget_fact8">A species of mammoths still existed during the construction of the great pyramids of Egypt.</string>
+    <string name="widget_fact9">There are more stars in the universe than grains of sand on Earth.</string>
+    <string name="widget_fact10">It takes several years for the stomach to digest chewing gum.</string>
+    <string name="widget_fact11">The Moon is slowly moving towards the Earth.</string>
+    <string name="widget_fact12">The Great Wall of China is visible to the naked eye from the Moon.</string>
+    <string name="widget_fact13">Lightning never strikes the same spot twice.</string>
+</resources>
+
