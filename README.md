@@ -4,3 +4,5 @@ If you want to check the app in action, you can find it [here](https://play.goog
 
 You'll have to create a new project in [Firebase](https://firebase.google.com/) and download the **google-services.json** file and replace it in this project for it to work.
 A sample "**is-it-true-export.json**" file is also attached which shows the structure of the database, this should be enough to get you started.
+
+If you want to read more some info is provided [here](https://medium.com/@prakash_pun/open-sourcing-is-it-true-android-trivia-game-app-47f8753b801b)
