@@ -1,0 +1,28 @@
+{
+  "questionsList": [
+    {
+      "answer": "FALSE",
+      "category": "science",
+      "fact": "All humans use much more than 10% of their brains. In fact, all regions of our brain are active, but they are not all active at the same time.",
+      "question": "Humans use only 10% of their brains."
+    },
+    {
+      "answer": "TRUE",
+      "category": "sports",
+      "fact": "After about 2 milliseconds of contact with the bat, the ball is propelled at a speed of 100 to 110 mph (160-178 km/h).",
+      "question": "After being hit by baseball bat, the ball flies at a speed of 100 to 110 mph (160-178 km/h)."
+    },
+    {
+      "answer": "TRUE",
+      "category": "movies",
+      "fact": "In the movie, Taylor is riding along the shore when he sees it, and angrily proclaims, We finally really did it. You maniacs You blew it up.The camera pans back to reveal the broken Statue of Liberty, half-sunk in the ocean.",
+      "question": "At the end of the original Planet of the Apes movie, Taylor discovers Statue of Liberty."
+    },
+    {
+      "answer": "TRUE",
+      "category": "knowledge",
+      "fact": "The few inhabitants of the island of North Sentinel, in the Bay of Bengal (Indian Ocean), refuse any contact with anyone who comes from outside the island. They are probably the most isolated human population in the world.",
+      "question": "The inhabitants of North Sentinel Island reject any contact with foreigners."
+    }
+  ]
+}
